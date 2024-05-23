@@ -1,4 +1,4 @@
-# Tee Ninja README
+# Tee Ninja
 
 ## Overview
 **Tee Ninja** is a Python application designed to automate the process of booking a tee time at Bethpage State Park Golf Course on Long Island (in the New York City metropolitan area). It leverages Selenium in Python for web automation and Tkinter for a user-friendly GUI. 
@@ -36,7 +36,7 @@ Before running Tee Ninja, ensure you have the following installed:
 ## Usage
 1. **Run the script:**
     ```bash
-    python tee_ninja.py
+    python main.pyw
     ```
 2. **Using the GUI:**
     - Select the desired course from the list.
@@ -68,6 +68,7 @@ Before running Tee Ninja, ensure you have the following installed:
 - Adjust the `executable_path` in `Service` to point to the location of your `chromedriver.exe`.
 - The booking time is set to 18:59:59. Modify this in the `while` loop if needed.
 - The script assumes the booking time is in the Eastern Time Zone. Adjust the `pytz.timezone` parameter if necessary.
+- This code is designed to work in Python 3.6 and above. Make sure that you have the correct version of Python installed.
 
 ## License
 This project is not licensed. Please reach out to me if you would like to utilize this work for commericial use.
